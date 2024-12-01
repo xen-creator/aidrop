@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "telegram-data-sender": "^1.0.0"
+    "axios": "^0.21.1"
   }
 }
